@@ -1,17 +1,5 @@
-//
-//  CameraManager+VideoOutput.swift of MijickCamera
-//
-//  Created by Tomasz Kurylik. Sending ❤️ from Kraków!
-//    - Mail: tomasz.kurylik@mijick.com
-//    - GitHub: https://github.com/FulcrumOne
-//    - Medium: https://medium.com/@mijick
-//
-//  Copyright ©2024 Mijick. All rights reserved.
-
-
 @preconcurrency import AVKit
 import SwiftUI
-import MijickTimer
 
 @MainActor class CameraManagerVideoOutput: NSObject {
     private(set) var parent: CameraManager!
@@ -154,5 +142,5 @@ private extension CameraManagerVideoOutput {
 
 // MARK: - HELPERS
 fileprivate extension MTimerID {
-    static let camera: MTimerID = .init(rawValue: "mijick-camera")
+    static let camera: MTimerID = .init(rawValue: "Kamera")
 }

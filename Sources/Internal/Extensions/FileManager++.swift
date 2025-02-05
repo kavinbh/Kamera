@@ -19,5 +19,5 @@ private extension FileManager {
     }
 }
 private extension FileManager {
-    static var videoPath: String { "mijick-camera-video-output.mp4" }
+    static var videoPath: String { "camera-video-output.mp4" }
 }

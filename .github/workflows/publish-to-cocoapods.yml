@@ -11,4 +11,4 @@ jobs:
       env:
         COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
       run: |
-        pod trunk push MijickCamera.podspec
+        pod trunk push Kamera.podspec

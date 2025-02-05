@@ -1,7 +1,6 @@
 
 import SwiftUI
 import AVFoundation
-import MijickTimer
 
 /**
  Screen that displays the camera view and manages camera actions.
